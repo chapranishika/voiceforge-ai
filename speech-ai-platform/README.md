@@ -16,9 +16,15 @@
 
 ## 🖥️ Platform Interface
 
+### Design Concept & Dashboard
 | 🌟 Cyberpunk Dark Mode Landing Page | 📊 Audio Waveform & Speech AI Dashboard |
 |---|---|
 | ![VoiceForge AI Landing Page](assets/landing_page_mockup.png) | ![VoiceForge AI Dashboard](assets/dashboard_mockup.png) |
+
+### Running Locally
+| 🌐 Local Browser Instance (`localhost:3000`) | ⚙️ Local Developer Server Startup Logs |
+|---|---|
+| ![VoiceForge AI Local Browser](assets/local_running_browser.png) | ![VoiceForge AI Terminal Logs](assets/local_terminal_logs.png) |
 
 ---
 
