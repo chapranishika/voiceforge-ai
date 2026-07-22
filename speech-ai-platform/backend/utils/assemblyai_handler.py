@@ -5,7 +5,11 @@ class AssemblyAIHandler:
     def __init__(self, api_key: str):
         if not api_key:
             raise ValueError("ASSEMBLYAI_API_KEY missing")
-        aai.settings.api_key = api_key
+        try:
+            aai.settings.api_key = api_key
+        except Exception:
+            import os
+            os.environ["ASSEMBLYAI_API_KEY"] = api_key
 
     def transcribe_file(self, file_path: str, options: dict = None) -> dict:
         config = self._build_config(options or {})
